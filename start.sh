@@ -8,5 +8,4 @@ cd $current_dir
 deps=$(ls -d deps/*/ebin 2> /dev/null)
 
 /usr/bin/erl -pa $current_dir/ebin $deps \
-	-sname emsbus -setcookie erlangms \
 	-eval "application:start(ecsv2sqlite)"
