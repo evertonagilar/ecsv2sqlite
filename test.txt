@@ -1,0 +1,1 @@
+ecsv2sqlite_loader:open("/home/agilar/desenvolvimento/ecsv2sqlite/priv/agenda.csv").

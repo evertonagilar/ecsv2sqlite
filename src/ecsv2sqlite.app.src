@@ -1,0 +1,12 @@
+{application, ecsv2sqlite,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ecsv2sqlite_app, []}},
+  {env, []}
+ ]}.
